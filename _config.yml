@@ -90,7 +90,9 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://Soros1990:pxh978639335@github.com/Soros1990/Soros1990.github.io.git
+  repo: 
+    github: https://Soros1990:pxh978639335@github.com/Soros1990/Soros1990.github.io.git
+    coding: https://e.coding.net/Soros1990/Soros1990.git
   branch: master
   # hexo-admin authentification
 # 管理后台教程https://www.cnblogs.com/xingyunblog/p/8681205.html
