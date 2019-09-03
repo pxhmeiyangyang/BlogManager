@@ -156,11 +156,12 @@ baidu_push: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -> archives).
 # External url should start with http:// or https://
 menu:
-  home: / || home
-  about: /about/ || user
-  tags: /tags/ || tags
-  categories: /categories/ || th
-  archives: /archives/ || archive
+  home: / || home #主页
+  tags: /tags/ || tags #标签
+  categories: /categories/ || th #分类
+  archives: /archives/ || archive #归档
+  about: /about/ || user #关于
+  guestbook: /guestbook/ || comment #留言
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
@@ -196,8 +197,8 @@ site_state: true
 # Value before `||` delimiter is the target permalink.
 # Value after `||` delimiter is the name of Font Awesome icon. If icon (with or without delimiter) is not specified, globe icon will be loaded.
 social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
+  GitHub: https://github.com/Soros1990 || github
+  E-Mail: mailto:751438921@qq.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -224,11 +225,11 @@ links:
   #Title: http://example.com
 
 # Sidebar Avatar
-avatar:
+avatar: 
   # In theme directory (source/images): /images/avatar.gif
   # In site directory (source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: #/images/avatar.gif
+  url: https://github.com/Soros1990/markDownImages/blob/master/blogHeader.jpeg?raw=true #/images/avatar.gif
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # If true, the avatar would be rotated with the cursor.
@@ -652,12 +653,12 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version
+  enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version
   appid: # Your leancloud application appid
   appkey: # Your leancloud application appkey
   notify: false # Mail notifier. See: https://github.com/xCss/Valine/wiki
   verify: false # Verification code
-  placeholder: Just go go # Comment box placeholder
+  placeholder: 说点什么吧！ # Comment box placeholder
   avatar: mm # Gravatar style
   guest_info: nick,mail,link # Custom comment header
   pageSize: 10 # Pagination size
@@ -813,7 +814,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/wzpan/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
@@ -940,7 +941,7 @@ three:
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
 # For more information: https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: false
+  enable: true
   onmobile: true # Display on mobile or not
   color: "0,0,255" # RGB values, use `,` to separate
   opacity: 0.5 # The opacity of line: 0~1

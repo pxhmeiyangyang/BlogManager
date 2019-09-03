@@ -100,3 +100,8 @@ admin:
   username: 978639335
   password_hash: $2a$10$qEDlT4EN6ol.D8z5UX29XuZaD7FJn0C1OxHEj7/F1K8zyc9H2QhVO
   secret: pxh
+
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
